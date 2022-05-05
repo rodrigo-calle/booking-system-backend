@@ -8,7 +8,7 @@ using DBEntity;
 
 namespace DBContext
 {
-    public class ApartmentRepository : BaseRepository, IApartmentRepository
+    public class ApartmentRepository : BaseRepository,IApartmentRepository
     {
         public EntityBaseResponse GetApartments()
         {
