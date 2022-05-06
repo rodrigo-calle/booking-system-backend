@@ -22,13 +22,13 @@ namespace DBContext
 
                     var p = new DynamicParameters();
                     p.Add(name: "@IDRESERVA", dbType: DbType.Int32, direction: ParameterDirection.Output);
-                    p.Add(name: "@IDHABITACION", value: reserva.idhabitacion, dbType: DbType.Int32, direction: ParameterDirection.Input);
-                    p.Add(name: "@IDUSUARIO", value: reserva.idusuario, dbType: DbType.Int32, direction: ParameterDirection.Input);
-                    p.Add(name: "@NINOS", value: reserva.ninos, dbType: DbType.Int32, direction: ParameterDirection.Input);
-                    p.Add(name: "@ADULTOS", value: reserva.adultos, dbType: DbType.Int32, direction: ParameterDirection.Input);
-                    p.Add(name: "@PRECIO", value: reserva.precio, dbType: DbType.Decimal, direction: ParameterDirection.Input);
-                    p.Add(name: "@FECHA", value: reserva.fecha, dbType: DbType.DateTime, direction: ParameterDirection.Input);
-                    p.Add(name: "@DIAS", value: reserva.dias, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                    p.Add(name: "@IDHABITACION", value: reserva.data[0].idhabitacion, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                    p.Add(name: "@IDUSUARIO", value: reserva.data[0].idusuario, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                    p.Add(name: "@NINOS", value: reserva.data[0].ninos, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                    p.Add(name: "@ADULTOS", value: reserva.data[0].adultos, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                    p.Add(name: "@PRECIO", value: reserva.data[0].precio, dbType: DbType.Decimal, direction: ParameterDirection.Input);
+                    p.Add(name: "@FECHA", value: reserva.data[0].fecha, dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@DIAS", value: reserva.data[0].dias, dbType: DbType.Int32, direction: ParameterDirection.Input);
 
                     db.Query<EntityReserva>(
                             sql: sql,
@@ -40,6 +40,25 @@ namespace DBContext
 
                     if (idreserva > 0)
                     {
+
+                        const string sql_mod = "usp_UpdateReserva";
+
+                        var p_mod = new DynamicParameters();
+                        p_mod.Add(name: "@IDRESERVA", value: idreserva, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@IDHABITACION", value: reserva.data[1].idhabitacion, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@IDUSUARIO", value: reserva.data[1].idusuario, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@NINOS", value: reserva.data[1].ninos, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@ADULTOS", value: reserva.data[1].adultos, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@PRECIO", value: reserva.data[1].precio, dbType: DbType.Decimal, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@FECHA", value: reserva.data[1].fecha, dbType: DbType.String, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@DIAS", value: reserva.data[1].dias, dbType: DbType.Int32, direction: ParameterDirection.Input);
+
+                        db.Query<EntityReserva>(
+                                sql: sql_mod,
+                                param: p_mod,
+                                commandType: CommandType.StoredProcedure
+                            ).FirstOrDefault();
+
                         response.isSuccess = true;
                         response.errorCode = "0000";
                         response.errorMessage = string.Empty;
