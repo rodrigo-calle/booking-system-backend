@@ -47,5 +47,18 @@ namespace UPC.APIBusiness.API.Controllers
             var ret = __HabitacionRepository.GetHabitaciones();
             return Json(ret);
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        [Produces("application/json")]
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("listar_agrup")]
+        public ActionResult GetHabitacionesAgrup()
+        {
+            var ret = __HabitacionRepository.GetHabitacionesAgrup();
+            return Json(ret);
+        }
     }
 }
