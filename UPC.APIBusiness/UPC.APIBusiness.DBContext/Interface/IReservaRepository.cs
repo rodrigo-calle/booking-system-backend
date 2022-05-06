@@ -7,6 +7,6 @@ namespace DBContext
 {
     public interface IReservaRepository
     {
-        EntityBaseResponse Insert(EntityReserva[] reserva);
+        EntityBaseResponse Insert(EntityReserva reserva);
     }
 }
