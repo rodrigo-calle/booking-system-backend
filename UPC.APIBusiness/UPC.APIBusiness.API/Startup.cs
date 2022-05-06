@@ -14,6 +14,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using UPC.APIBusiness.DBContext.Interface;
+using UPC.APIBusiness.DBContext.Repository;
 
 namespace API
 {
@@ -123,7 +125,8 @@ namespace API
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IProjectRepository, ProjectRepository>();
             services.AddTransient<IApartmentRepository, ApartmentRepository>();
-            services.AddTransient<IHabitacionRepository, HabitacionRepository>();   
+            services.AddTransient<IHabitacionRepository, HabitacionRepository>();
+            services.AddTransient<IPaqueteRepository, PaqueteRepository>();
             services.AddTransient<IReservaRepository, ReservaRepository>();
 
             // ----------------------------------------------------------------

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {}
+    "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {
+    "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj",
+        "projectUniqueName": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj",
         "projectName": "UPC.APIBusiness.API",
-        "projectPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj",
-        "packagesPath": "C:\\Users\\petun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\obj\\",
+        "projectPath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\petun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
-                "projectPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj"
+              "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
+                "projectPath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj"
               },
-              "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
-                "projectPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj"
+              "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
+                "projectPath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj"
               }
             }
           }
@@ -114,21 +118,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
+    "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj",
+        "projectUniqueName": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj",
         "projectName": "UPC.APIBusiness.DBContext",
-        "projectPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj",
-        "packagesPath": "C:\\Users\\petun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\obj\\",
+        "projectPath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\petun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,8 +150,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
-                "projectPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj"
+              "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
+                "projectPath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj"
               }
             }
           }
@@ -190,21 +198,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
+    "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
+        "projectUniqueName": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
         "projectName": "UPC.APIBusiness.DBEntity",
-        "projectPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
-        "packagesPath": "C:\\Users\\petun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\obj\\",
+        "projectPath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\petun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -244,7 +256,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

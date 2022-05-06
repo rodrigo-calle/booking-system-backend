@@ -442,5 +442,27 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:UPC.APIBusiness.API.Controllers.PaqueteController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:UPC.APIBusiness.API.Controllers.PaqueteController.__PaqueteRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.PaqueteController.#ctor(UPC.APIBusiness.DBContext.Interface.IPaqueteRepository)">
+            <summary>
+            
+            </summary>
+            <param name="paqueteRepository"></param>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.PaqueteController.GetPaquetes">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>

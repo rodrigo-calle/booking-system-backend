@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ifXuGlajwb2hUuufFNHrkH33ye9H5La4li54Z5+ErYAgAF/eqS3jUTnolSKMtN15IUOFCYRB6Lv5mVmM2kdH3Q==",
+  "dgSpecHash": "guRPUNGKIDDsGeAMR7a4PzvwPNRNEhz6MwCg7D4iFbrlyqwf3BpXdVo4+85LHaDXetMXvZ9sgR9XWqUy2TSNUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
+  "projectFilePath": "C:\\INDIE\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

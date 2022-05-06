@@ -487,7 +487,11 @@
         }
       },
       "System.Security.Cryptography.Cng/4.5.0": {},
-      "System.Text.Encodings.Web/4.7.0": {},
+      "System.Text.Encodings.Web/4.7.0": {
+        "compile": {
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
