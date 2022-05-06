@@ -112,6 +112,28 @@
             <param name="project"></param>
             <returns></returns>
         </member>
+        <member name="T:API.ReservaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:API.ReservaController.__ReservaRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.ReservaController.#ctor(DBContext.IReservaRepository)">
+            <summary>
+            
+            </summary>
+            <param name="reservaRepository"></param>
+        </member>
+        <member name="M:API.ReservaController.InsertReserva(DBEntity.EntityReserva[])">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:API.UserController">
             <summary>
             
@@ -409,6 +431,12 @@
             <param name="habitacionRepository"></param>
         </member>
         <member name="M:UPC.APIBusiness.API.Controllers.HabitacionController.GetHabitaciones">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.HabitacionController.GetHabitacionesAgrup">
             <summary>
             
             </summary>

@@ -7,6 +7,7 @@ namespace DBContext
 {
     public interface IHabitacionRepository
     {
-        EntityBaseResponse GetHabitaciones(); 
+        EntityBaseResponse GetHabitaciones();
+        EntityBaseResponse GetHabitacionesAgrup();
     }
 }

@@ -12,5 +12,6 @@ namespace DBEntity
         public decimal precio { get; set; } //500.00
         public string personas { get; set; }// 3
         public string image { get; set; }  //assets/img/habitaciones/habitacion2.jpg
+        public int disponibles {get; set; }
     }
 }

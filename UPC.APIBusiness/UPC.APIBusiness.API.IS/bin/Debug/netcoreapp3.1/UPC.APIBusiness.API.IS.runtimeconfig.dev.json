@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\petun\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\petun\\.nuget\\packages"
+    ]
+  }
+}
