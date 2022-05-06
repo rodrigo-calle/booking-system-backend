@@ -522,23 +522,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\James\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\petun\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\James\\UPC\\2022\\01\\IS250 - TDEW\\Vie-EA2A\\Proyecto\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API.IS\\UPC.APIBusiness.API.IS.csproj",
+      "projectUniqueName": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API.IS\\UPC.APIBusiness.API.IS.csproj",
       "projectName": "UPC.APIBusiness.API.IS",
-      "projectPath": "C:\\Users\\James\\UPC\\2022\\01\\IS250 - TDEW\\Vie-EA2A\\Proyecto\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API.IS\\UPC.APIBusiness.API.IS.csproj",
-      "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\James\\UPC\\2022\\01\\IS250 - TDEW\\Vie-EA2A\\Proyecto\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API.IS\\obj\\",
+      "projectPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API.IS\\UPC.APIBusiness.API.IS.csproj",
+      "packagesPath": "C:\\Users\\petun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\petun\\Source\\Repos\\booking-system-backend\\UPC.APIBusiness\\UPC.APIBusiness.API.IS\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\petun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -596,7 +592,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

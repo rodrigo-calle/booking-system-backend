@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\UPC.APIBusiness",
+    "\\UPC.APIBusiness\\UPC.APIBusiness.API",
+    "\\UPC.APIBusiness\\UPC.APIBusiness.DBContext",
+    "\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface",
+    "\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Repository",
+    "\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity",
+    "\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Model"
+  ],
+  "SelectedNode": "\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Repository\\ApartmentRepository.cs",
+  "PreviewInSolutionExplorer": false
+}

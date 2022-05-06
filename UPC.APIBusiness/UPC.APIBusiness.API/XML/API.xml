@@ -392,5 +392,27 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:UPC.APIBusiness.API.Controllers.HabitacionController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:UPC.APIBusiness.API.Controllers.HabitacionController.__HabitacionRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.HabitacionController.#ctor(DBContext.IHabitacionRepository)">
+            <summary>
+            
+            </summary>
+            <param name="habitacionRepository"></param>
+        </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.HabitacionController.GetHabitaciones">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>
