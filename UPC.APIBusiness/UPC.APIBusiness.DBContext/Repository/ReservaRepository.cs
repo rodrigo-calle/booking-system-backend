@@ -41,23 +41,31 @@ namespace DBContext
                     if (idreserva > 0)
                     {
 
+                        if (reserva.data.Count > 1) 
+                        {
+                            for (int i = 1; i <= reserva.data.Count - 1 ; i++)
+                            {
+
                         const string sql_mod = "usp_UpdateReserva";
 
                         var p_mod = new DynamicParameters();
                         p_mod.Add(name: "@IDRESERVA", value: idreserva, dbType: DbType.Int32, direction: ParameterDirection.Input);
-                        p_mod.Add(name: "@IDHABITACION", value: reserva.data[1].idhabitacion, dbType: DbType.Int32, direction: ParameterDirection.Input);
-                        p_mod.Add(name: "@IDUSUARIO", value: reserva.data[1].idusuario, dbType: DbType.Int32, direction: ParameterDirection.Input);
-                        p_mod.Add(name: "@NINOS", value: reserva.data[1].ninos, dbType: DbType.Int32, direction: ParameterDirection.Input);
-                        p_mod.Add(name: "@ADULTOS", value: reserva.data[1].adultos, dbType: DbType.Int32, direction: ParameterDirection.Input);
-                        p_mod.Add(name: "@PRECIO", value: reserva.data[1].precio, dbType: DbType.Decimal, direction: ParameterDirection.Input);
-                        p_mod.Add(name: "@FECHA", value: reserva.data[1].fecha, dbType: DbType.String, direction: ParameterDirection.Input);
-                        p_mod.Add(name: "@DIAS", value: reserva.data[1].dias, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@IDHABITACION", value: reserva.data[i].idhabitacion, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@IDUSUARIO", value: reserva.data[i].idusuario, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@NINOS", value: reserva.data[i].ninos, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@ADULTOS", value: reserva.data[i].adultos, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@PRECIO", value: reserva.data[i].precio, dbType: DbType.Decimal, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@FECHA", value: reserva.data[i].fecha, dbType: DbType.String, direction: ParameterDirection.Input);
+                        p_mod.Add(name: "@DIAS", value: reserva.data[i].dias, dbType: DbType.Int32, direction: ParameterDirection.Input);
 
                         db.Query<EntityReserva>(
                                 sql: sql_mod,
                                 param: p_mod,
                                 commandType: CommandType.StoredProcedure
                             ).FirstOrDefault();
+
+                            }
+                        }
 
                         response.isSuccess = true;
                         response.errorCode = "0000";

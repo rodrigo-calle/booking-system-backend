@@ -2,13 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\UPC.APIBusiness",
-    "\\UPC.APIBusiness\\UPC.APIBusiness.API",
     "\\UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers",
     "\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Base",
     "\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface",
-    "\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Repository",
-    "\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Model"
+    "\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Repository"
   ],
-  "SelectedNode": "\\UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\UserController.cs",
+  "SelectedNode": "\\UPC.APIBusiness.sln",
   "PreviewInSolutionExplorer": false
 }
