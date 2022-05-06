@@ -8,5 +8,6 @@ namespace UPC.APIBusiness.DBContext.Interface
     public interface IPaqueteRepository
     {
         EntityBaseResponse GetPaquetes();
+        EntityBaseResponse GetPaquete(int id);
     }
 }

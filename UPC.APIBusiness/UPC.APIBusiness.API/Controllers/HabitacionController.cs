@@ -47,6 +47,7 @@ namespace UPC.APIBusiness.API.Controllers
             var ret = __HabitacionRepository.GetHabitaciones();
             return Json(ret);
         }
+
         /// <summary>
         /// 
         /// </summary>

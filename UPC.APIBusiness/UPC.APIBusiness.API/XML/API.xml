@@ -464,5 +464,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:UPC.APIBusiness.API.Controllers.PaqueteController.GetPaquete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

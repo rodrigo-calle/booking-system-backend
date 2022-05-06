@@ -5,10 +5,11 @@ using System.Data;
 using System.Linq;
 using Dapper;
 using DBEntity;
+using UPC.APIBusiness.DBEntity.Model;
 
 namespace DBContext
 {
-    public class HabitacionRepository : BaseRepository,IHabitacionRepository
+    public class HabitacionRepository : BaseRepository, IHabitacionRepository
     {
         public EntityBaseResponse GetHabitaciones()
         {
@@ -95,5 +96,33 @@ namespace DBContext
 
             return response;
         }
+
+        public List<EntityPaqueteHabitacion> GetHabitacionesXPaquete(int idpaquete)
+        {
+            var response = new List<EntityPaqueteHabitacion>();
+
+            try
+            {
+                using (var db = GetSqlConnection())
+                {
+                    var p = new DynamicParameters();
+                    p.Add(name: "@IDPAQUETE", value: idpaquete, dbType: DbType.Int32, direction: ParameterDirection.Input);
+
+                    response = db.Query<EntityPaqueteHabitacion>(
+                            sql: "usp_ListarHabitaciones_x_Paquete",
+                            param: p,
+                            commandType: CommandType.StoredProcedure
+                        ).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+            return response;
+        }
+
+
     }
 }

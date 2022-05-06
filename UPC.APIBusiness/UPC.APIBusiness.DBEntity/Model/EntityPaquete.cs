@@ -11,6 +11,6 @@ namespace UPC.APIBusiness.DBEntity.Model
         public string nombre { get; set; }
         public decimal precio { get; set; }
         public string image { get; set; }
-        public List<EntityHabitacion> habitaciones { get; set; }
+        public List<EntityPaqueteHabitacion> habitaciones { get; set; }
     }
 }

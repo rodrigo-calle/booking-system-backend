@@ -44,5 +44,19 @@ namespace UPC.APIBusiness.API.Controllers
             return Json(ret);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [Produces("application/json")]
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("obtener")]
+        public ActionResult GetPaquete(int id)
+        {
+            var ret = __PaqueteRepository.GetPaquete(id);
+            return Json(ret);
+        }
     }
 }
