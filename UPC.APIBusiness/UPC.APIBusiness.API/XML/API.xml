@@ -128,7 +128,7 @@
             </summary>
             <param name="reservaRepository"></param>
         </member>
-        <member name="M:API.ReservaController.InsertReserva(DBEntity.EntityReserva[])">
+        <member name="M:API.ReservaController.InsertReserva(DBEntity.EntityReserva)">
             <summary>
             
             </summary>

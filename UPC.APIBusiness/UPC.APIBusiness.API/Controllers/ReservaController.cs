@@ -41,7 +41,7 @@ namespace API
         [AllowAnonymous]
         [HttpPost]
         [Route("insert")]
-        public ActionResult InsertReserva(EntityReserva[] reserva)
+        public ActionResult InsertReserva(EntityReserva reserva)
         {
             var ret = __ReservaRepository.Insert(reserva);
             return Json(ret);
